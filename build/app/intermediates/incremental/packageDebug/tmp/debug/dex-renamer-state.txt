@@ -1,0 +1,4 @@
+#Fri Oct 11 10:34:12 CDT 2019
+base.0=/Users/abreyen/Desktop/mcglynns_food2go/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
