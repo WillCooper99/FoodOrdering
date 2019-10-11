@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 
-import './screens/FirstScreen.dart';
-import './screens/SecondScreen.dart';
-import './screens/ThirdScreen.dart';
+import 'Account.dart';
+import './menu/MenuHome.dart';
+import 'Cart.dart';
 
 void main() {
   runApp(MyApp());
@@ -26,12 +26,13 @@ class MyApp extends StatelessWidget {
               ],
             ),
             title: Text('McGlynns Food2Go'),
+
           ),
           body: TabBarView(
             children: [
-              FirstScreen(),
-              SecondScreen(),
-              ThirdScreen(),
+              Account(),
+              MenuHome(),
+              Cart(),
             ],
           ),
         ),
