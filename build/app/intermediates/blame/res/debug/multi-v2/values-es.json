@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abreyen/Desktop/mcglynns_food2go/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/Users/abreyen/Documents/GitHub/FoodOrdering/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
                     "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/9e2a9e125b4d731104da72f9869a485c/play-services-basement-17.0.0/res/values-es/values.xml",

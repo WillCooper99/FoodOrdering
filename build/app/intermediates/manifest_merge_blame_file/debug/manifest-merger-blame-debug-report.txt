@@ -12,14 +12,14 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-15-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+15-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
-16-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+16-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
 17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
 17-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
 17-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
@@ -34,30 +34,30 @@
 24         FlutterApplication and put your custom class here.
 25    -->
 26    <application
-26-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:9:5-32:19
+26-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:9:5-32:19
 27        android:name="io.flutter.app.FlutterApplication"
-27-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:10:9-57
+27-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:10:9-57
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.0.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/f6c95026dab09c8e2bf92b93af19e7f5/core-1.0.0/AndroidManifest.xml:22:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:12:9-43
+30-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:12:9-43
 31        android:label="mcglynns_food2go" >
-31-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:11:9-41
+31-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:11:9-41
 32        <activity
-32-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:13:9-31:20
+32-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:13:9-31:20
 33            android:name="com.example.mcglynns_food2go.MainActivity"
-33-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:14:13-41
+33-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:14:13-41
 34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-34-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:17:13-144
+34-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:17:13-144
 35            android:hardwareAccelerated="true"
-35-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:18:13-47
+35-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:18:13-47
 36            android:launchMode="singleTop"
-36-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:15:13-43
+36-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:15:13-43
 37            android:theme="@style/LaunchTheme"
-37-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:16:13-47
+37-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:16:13-47
 38            android:windowSoftInputMode="adjustResize" >
-38-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:19:13-55
+38-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:19:13-55
 39
 40            <!--
 41                 This keeps the window background of the activity showing
@@ -66,48 +66,48 @@
 44                 defined in @style/LaunchTheme).
 45            -->
 46            <meta-data
-46-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:24:13-26:40
+46-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:24:13-26:40
 47                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
-47-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:25:17-82
+47-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:25:17-82
 48                android:value="true" />
-48-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:26:17-37
+48-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:26:17-37
 49
 50            <intent-filter>
-50-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:27:13-30:29
+50-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:27:13-30:29
 51                <action android:name="android.intent.action.MAIN" />
-51-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:28:17-68
-51-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:28:25-66
+51-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:28:17-68
+51-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:28:25-66
 52
 53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:29:17-76
-53-->/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:29:27-74
+53-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:29:17-76
+53-->/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:29:27-74
 54            </intent-filter>
 55        </activity>
 56
 57        <service
-57-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+57-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
 58            android:name="com.google.firebase.components.ComponentDiscoveryService"
-58-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+58-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
 59            android:exported="false" >
 59-->[com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
 60            <meta-data
-60-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+60-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
 61                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
-61-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+61-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
 62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+62-->[:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
 63            <meta-data
-63-->[:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+63-->[:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-64-->[:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+64-->[:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+65-->[:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 66            <meta-data
-66-->[:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+66-->[:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 67                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
-67-->[:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+67-->[:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
 68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+68-->[:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 69            <meta-data
 69-->[com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
 70                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -115,11 +115,11 @@
 71                android:value="com.google.firebase.components.ComponentRegistrar" />
 71-->[com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
 72            <meta-data
-72-->[:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+72-->[:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-73-->[:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+73-->[:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+74-->[:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 75            <meta-data
 75-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
 76                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"

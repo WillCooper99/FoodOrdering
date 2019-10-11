@@ -1,18 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [com.android.support:multidex:1.0.3] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/edf3cca003a8a2722ff7db605f9721a1/multidex-1.0.3/AndroidManifest.xml:17:1-22:12
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/90cefeae5b0a6975cb6af2a53d00c9fd/firebase-core-16.0.9/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/a7810a7a89adc266fb87c2fe97aba7ad/firebase-analytics-17.2.0/AndroidManifest.xml:2:1-9:12
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:17:1-42:12
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/6f66e818156cb80eea139d1dc4d5fffa/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:17:1-25:12
@@ -56,39 +56,39 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/abreyen/.g
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/576fad5771739db577e528795bcd1c28/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c5b4737c5b055cbb6a2c8286f7f94d47/firebase-database-collection-16.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/0cf5331b5b7be95795a96088655520d2/protolite-well-known-types-16.0.1/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:2:5-43
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:2:5-43
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:9:5-32:19
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/90cefeae5b0a6975cb6af2a53d00c9fd/firebase-core-16.0.9/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/90cefeae5b0a6975cb6af2a53d00c9fd/firebase-core-16.0.9/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/a7810a7a89adc266fb87c2fe97aba7ad/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/a7810a7a89adc266fb87c2fe97aba7ad/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
@@ -128,61 +128,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/abre
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/f6c95026dab09c8e2bf92b93af19e7f5/core-1.0.0/AndroidManifest.xml:22:18-86
 	android:label
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:12:9-43
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:10:9-57
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:10:9-57
 activity#com.example.mcglynns_food2go.MainActivity
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:13:9-31:20
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:13:9-31:20
 	android:launchMode
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:15:13-43
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:15:13-43
 	android:hardwareAccelerated
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:18:13-47
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:18:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:19:13-55
 	android:configChanges
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:17:13-144
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:17:13-144
 	android:theme
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:16:13-47
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:16:13-47
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:14:13-41
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:14:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:24:13-26:40
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:24:13-26:40
 	android:value
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:26:17-37
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:26:17-37
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:25:17-82
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:25:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:28:17-68
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:28:17-68
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:29:17-76
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:29:17-76
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml:29:27-74
 uses-sdk
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:multidex:1.0.3] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/edf3cca003a8a2722ff7db605f9721a1/multidex-1.0.3/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.3] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/edf3cca003a8a2722ff7db605f9721a1/multidex-1.0.3/AndroidManifest.xml:20:5-43
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/90cefeae5b0a6975cb6af2a53d00c9fd/firebase-core-16.0.9/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/90cefeae5b0a6975cb6af2a53d00c9fd/firebase-core-16.0.9/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/a7810a7a89adc266fb87c2fe97aba7ad/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/a7810a7a89adc266fb87c2fe97aba7ad/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
@@ -269,18 +269,18 @@ MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/abr
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c5b4737c5b055cbb6a2c8286f7f94d47/firebase-database-collection-16.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/0cf5331b5b7be95795a96088655520d2/protolite-well-known-types-16.0.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/0cf5331b5b7be95795a96088655520d2/protolite-well-known-types-16.0.1/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
-MERGED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
@@ -294,9 +294,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/6a1c46d8a7605f639818d43da2a18af5/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/6a1c46d8a7605f639818d43da2a18af5/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/abreyen/Desktop/mcglynns_food2go/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
@@ -312,9 +312,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /U
 MERGED from [io.grpc:grpc-android:1.16.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/d601f6aba2e8e15fd4db7772df5a5849/grpc-android-1.16.1/AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.16.1] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/d601f6aba2e8e15fd4db7772df5a5849/grpc-android-1.16.1/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+		ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
@@ -326,17 +326,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/6a1c46d8a7605f639818d43da2a18af5/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/6a1c46d8a7605f639818d43da2a18af5/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+		ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/16605b4f860d60fa1745813e7e3743f9/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-firestore:19.0.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/0a674c814bc28cf7533ff055e1cff012/firebase-firestore-19.0.0/AndroidManifest.xml:17:9-21:19
@@ -346,25 +346,25 @@ MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/abreyen/.gradle/cac
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+		ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
 	android:value
-		ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+		ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
 	android:name
-		ADDED from [:firebase_analytics] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+		ADDED from [:firebase_analytics] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+		ADDED from [:firebase_core] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/abreyen/Desktop/mcglynns_food2go/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+		ADDED from [:firebase_auth] /Users/abreyen/Documents/GitHub/FoodOrdering/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -388,11 +388,11 @@ ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/cac
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.1.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/5a8da10ad50c2000d840a8a9658ece6e/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
-ADDED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /Users/abreyen/Desktop/mcglynns_food2go/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+		ADDED from [:cloud_firestore] /Users/abreyen/Documents/GitHub/FoodOrdering/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/c39aa629b8ac49109389d898b845f5e8/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/abreyen/.gradle/caches/transforms-2/files-2.1/7efa2e8922fc4fac888f4e5877f59759/play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110

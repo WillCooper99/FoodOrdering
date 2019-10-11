@@ -7,7 +7,7 @@ class Account extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Account222'),
+        title: Text('Account'),
       ),
 
     );
