@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abreyen/Desktop/mcglynns_food2go/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/abreyen/Documents/GitHub/FoodOrdering/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/f6c95026dab09c8e2bf92b93af19e7f5/core-1.0.0/res/values/values.xml",
@@ -42,23 +42,6 @@
                     }
                 },
                 {
-                    "source": "/Users/abreyen/Desktop/mcglynns_food2go/build/app/generated/res/google-services/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,310,392,496,605,725,825",
-                        "endColumns": "143,110,81,103,108,119,99,76",
-                        "endOffsets": "194,305,387,491,600,720,820,897"
-                    },
-                    "to": {
-                        "startLines": "67,68,69,70,71,72,73,74",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "5528,5672,5783,5865,5969,6078,6198,6298",
-                        "endColumns": "143,110,81,103,108,119,99,76",
-                        "endOffsets": "5667,5778,5860,5964,6073,6193,6293,6370"
-                    }
-                },
-                {
                     "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/9e2a9e125b4d731104da72f9869a485c/play-services-basement-17.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -95,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abreyen/Desktop/mcglynns_food2go/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/abreyen/Documents/GitHub/FoodOrdering/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -111,6 +94,23 @@
                         "endLines": "80",
                         "endColumns": "12",
                         "endOffsets": "6738"
+                    }
+                },
+                {
+                    "source": "/Users/abreyen/Documents/GitHub/FoodOrdering/build/app/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,310,392,496,605,725,825",
+                        "endColumns": "143,110,81,103,108,119,99,76",
+                        "endOffsets": "194,305,387,491,600,720,820,897"
+                    },
+                    "to": {
+                        "startLines": "67,68,69,70,71,72,73,74",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "5528,5672,5783,5865,5969,6078,6198,6298",
+                        "endColumns": "143,110,81,103,108,119,99,76",
+                        "endOffsets": "5667,5778,5860,5964,6073,6193,6293,6370"
                     }
                 }
             ]

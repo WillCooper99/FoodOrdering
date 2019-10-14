@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mcglynns_food2go/account.dart';
-import 'package:mcglynns_food2go/cart.dart';
+import 'package:mcglynns_food2go/Account.dart';
+import 'package:mcglynns_food2go/Cart.dart';
 import 'package:mcglynns_food2go/menu/menuHome.dart';
 
 void main() => runApp(MyApp());
@@ -55,6 +55,9 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.orangeAccent,
         title: new Text('McGlynns Food2Go')
       ),
+    body: Center(
+      child: new Text('I am the homepage')
+    ),
       drawer: new Drawer(
         child: ListView(
           children: <Widget>[

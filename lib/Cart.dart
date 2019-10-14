@@ -13,7 +13,9 @@ class _CartState extends State<Cart> {
         title: new Text('Cart'),
         backgroundColor: Colors.orangeAccent,
       ),
-      body: Text("cart"),
+      body: Center(
+          child: new Text('I am the cart page')
+      ),
     );
   }
 }
