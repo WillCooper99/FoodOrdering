@@ -1,19 +1,19 @@
-// Account.dart
-
 import 'package:flutter/material.dart';
 
-class Cart extends StatelessWidget {
+class Cart extends StatefulWidget {
+  @override
+  _CartState createState() => _CartState();
+}
+
+class _CartState extends State<Cart> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Cart'),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('Cart'),
+        backgroundColor: Colors.orangeAccent,
       ),
-      body: Center(
-          child: Text('I am centered text!')
-      ),
-
+      body: Text("cart"),
     );
   }
 }
-

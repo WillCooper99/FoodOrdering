@@ -1,34 +1,19 @@
-// Account.dart
-
 import 'package:flutter/material.dart';
-<<<<<<< Updated upstream
-=======
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'Beverages.dart';
->>>>>>> Stashed changes
 
-class MenuHome extends StatelessWidget {
+class MenuHome extends StatefulWidget {
+  @override
+  _MenuHomeState createState() => _MenuHomeState();
+}
+
+class _MenuHomeState extends State<MenuHome> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-<<<<<<< Updated upstream
-        title: Text('Menu'),
-=======
-        title: Text('First Route'),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('Menu'),
+        backgroundColor: Colors.orangeAccent,
       ),
-      body: Center(
-        child: RaisedButton(
-          child: Text('Open route'),
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Beverages()),
-            );
-          },
-        ),
->>>>>>> Stashed changes
-      ),
+      body: Text("menuHome"),
     );
   }
 }
