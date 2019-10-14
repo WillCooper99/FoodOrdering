@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
                 Tab(icon: Icon(Icons.shopping_cart))
               ],
             ),
-            title: Text('McGlynns Food2Go'),
+            title: Text('McGlynns Food2Go'), backgroundColor: Colors.redAccent,
 
           ),
           body: TabBarView(
