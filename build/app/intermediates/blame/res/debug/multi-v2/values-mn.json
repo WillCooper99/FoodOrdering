@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abreyen/Documents/GitHub/FoodOrdering/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml",
+            "outputFile": "C:\\src\\FoodOrdering\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
             "map": [
                 {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/9e2a9e125b4d731104da72f9869a485c/play-services-basement-17.0.0/res/values-mn/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "208",
-                        "endOffsets": "455"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1271",
-                        "endColumns": "208",
-                        "endOffsets": "1475"
-                    }
-                },
-                {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/d39ce464aa29971bc5932ccf5ed880dd/play-services-base-17.1.0/res/values-mn/values.xml",
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\d39ce464aa29971bc5932ccf5ed880dd\\play-services-base-17.1.0\\res\\values-mn\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/f6c95026dab09c8e2bf92b93af19e7f5/core-1.0.0/res/values-mn/values-mn.xml",
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\9e2a9e125b4d731104da72f9869a485c\\play-services-basement-17.0.0\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "208",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1271",
+                        "endColumns": "208",
+                        "endOffsets": "1475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\f6c95026dab09c8e2bf92b93af19e7f5\\core-1.0.0\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
