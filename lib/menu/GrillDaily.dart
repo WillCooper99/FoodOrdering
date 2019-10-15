@@ -16,7 +16,7 @@ class _GrillDailyState extends State<GrillDaily> {
       body: Center(
         child: Container(
             padding: const EdgeInsets.all(10.0),
-            child: DBA(collection: 'Beverages')),
+            child: DBA(collection: 'Grill Daily')),
       ),
     );
   }
