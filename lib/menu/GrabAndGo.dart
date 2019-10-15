@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:mcglynns_food2go/CustomCard.dart';
+import 'package:mcglynns_food2go/DBA.dart';
 
 class GrabAndGo extends StatefulWidget {
   @override
@@ -17,28 +16,7 @@ class _GrabAndGoState extends State<GrabAndGo> {
       body: Center(
         child: Container(
             padding: const EdgeInsets.all(10.0),
-            child: StreamBuilder<QuerySnapshot>(
-              stream: Firestore.instance.collection('Grab & Go')
-                  .snapshots(),
-              builder: (BuildContext context,
-                  AsyncSnapshot<QuerySnapshot> snapshot) {
-                if (snapshot.hasError)
-                  return new Text('Error: ${snapshot.error}');
-                switch (snapshot.connectionState) {
-                  case ConnectionState.waiting:
-                    return new Text('Loading...');
-                  default:
-                    return new ListView(
-                      children: snapshot.data.documents
-                          .map((DocumentSnapshot document) {
-                        return new CustomCard(
-                          title: document['name'],
-                        );
-                      }).toList(),
-                    );
-                }
-              },
-            )),
+            child: DBA(collection: 'Beverages')),
       ),
     );
   }
