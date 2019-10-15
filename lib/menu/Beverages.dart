@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mcglynns_food2go/DBA.dart';
 
 class Beverages extends StatefulWidget {
