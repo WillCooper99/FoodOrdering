@@ -1,4 +1,0 @@
-#Fri Oct 11 14:00:09 CDT 2019
-base.0=/Users/abreyen/Desktop/mcglynns_food2go/build/app/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
