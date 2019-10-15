@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/abreyen/Documents/GitHub/FoodOrdering/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
+            "outputFile": "C:\\src\\FoodOrdering\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ca\\values-ca.xml",
             "map": [
                 {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/9e2a9e125b4d731104da72f9869a485c/play-services-basement-17.0.0/res/values-ca/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "193",
-                        "endOffsets": "440"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1264",
-                        "endColumns": "193",
-                        "endOffsets": "1453"
-                    }
-                },
-                {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/f6c95026dab09c8e2bf92b93af19e7f5/core-1.0.0/res/values-ca/values-ca.xml",
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\f6c95026dab09c8e2bf92b93af19e7f5\\core-1.0.0\\res\\values-ca\\values-ca.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/abreyen/.gradle/caches/transforms-2/files-2.1/d39ce464aa29971bc5932ccf5ed880dd/play-services-base-17.1.0/res/values-ca/values.xml",
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\d39ce464aa29971bc5932ccf5ed880dd\\play-services-base-17.1.0\\res\\values-ca\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,6 +35,23 @@
                         "startOffsets": "105,212,396,525,636,845,974,1127,1458,1688,1799,1989,2122,2345,2533,2628,2726",
                         "endColumns": "106,183,128,110,208,128,152,136,229,110,189,132,222,187,94,97,115",
                         "endOffsets": "207,391,520,631,840,969,1122,1259,1683,1794,1984,2117,2340,2528,2623,2721,2837"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Zachary\\.gradle\\caches\\transforms-2\\files-2.1\\9e2a9e125b4d731104da72f9869a485c\\play-services-basement-17.0.0\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "193",
+                        "endOffsets": "440"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1264",
+                        "endColumns": "193",
+                        "endOffsets": "1453"
                     }
                 }
             ]
