@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mcglynns_food2go/DBACart.dart';
 
 class Cart extends StatefulWidget {
   @override
@@ -14,7 +15,10 @@ class _CartState extends State<Cart> {
         backgroundColor: Colors.orangeAccent,
       ),
       body: Center(
-          child: new Text('I am the cart page')
+        child: Container(
+          padding: const EdgeInsets.all(10.0),
+          child: DBACart(collection: 'Cart'),
+        ),
       ),
     );
   }

@@ -47,57 +47,50 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        backgroundColor: Colors.orangeAccent,
-        title: new Text('McGlynns Food2Go')
-      ),
-    body: Center(
-      child: new Text('I am the homepage')
-    ),
+          backgroundColor: Colors.orangeAccent,
+          title: new Text('McGlynns Food2Go')),
+      body: Center(child: new Text('I am the homepage')),
       drawer: new Drawer(
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-                accountName: new Text('userName'),
-                accountEmail: new Text('user@gmail.com'),
+                accountName: new Text('Username: juser'),
+                accountEmail: new Text('Email: juser@csbsju.edu'),
                 currentAccountPicture: new CircleAvatar(
-                  backgroundImage: new NetworkImage('https://i.pravatar.cc/300'),
-                )
-            ),
+                  backgroundImage:
+                      new NetworkImage('https://i.pravatar.cc/300'),
+                )),
             new ListTile(
-              title: new Text('Account'),
-              onTap: () {
-                Navigator.of(context).pop();
-                Navigator.push(context, new MaterialPageRoute(
-                    builder: (BuildContext context) => new Account()
-                )
-                );
-              }
-            ),
+                title: new Text('Account'),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (BuildContext context) => new Account()));
+                }),
             new ListTile(
                 title: new Text('Menu'),
                 onTap: () {
                   Navigator.of(context).pop();
-                  Navigator.push(context, new MaterialPageRoute(
-                      builder: (BuildContext context) => new MenuHome()
-                  )
-                  );
-                }
-            ),
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (BuildContext context) => new MenuHome()));
+                }),
             new ListTile(
                 title: new Text('Cart'),
                 onTap: () {
                   Navigator.of(context).pop();
-                  Navigator.push(context, new MaterialPageRoute(
-                      builder: (BuildContext context) => new Cart()
-                  )
-                  );
-                }
-            )
+                  Navigator.push(
+                      context,
+                      new MaterialPageRoute(
+                          builder: (BuildContext context) => new Cart()));
+                })
           ],
         ),
       ),

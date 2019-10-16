@@ -9,7 +9,6 @@ import 'package:mcglynns_food2go/menu/GrillDaily.dart';
 import './Beverages.dart';
 import './DailyBakery.dart';
 
-
 class MenuHome extends StatefulWidget {
   @override
   _MenuHomeState createState() => _MenuHomeState();

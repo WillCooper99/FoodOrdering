@@ -13,10 +13,7 @@ class _AccountState extends State<Account> {
         title: new Text('Account'),
         backgroundColor: Colors.orangeAccent,
       ),
-      body: Center(
-          child: new Text('I am the account page')
-      ),
+      body: Center(child: new Text('I am the account page')),
     );
   }
 }
-
