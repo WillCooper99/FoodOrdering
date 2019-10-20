@@ -1,1 +1,1 @@
-# McGglynns Food2Go
+# McGlynns Food2Go
