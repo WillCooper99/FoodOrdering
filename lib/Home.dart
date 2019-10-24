@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mcglynns_food2go/Account.dart';
 import 'package:mcglynns_food2go/Cart.dart';
 import 'package:mcglynns_food2go/menu/menuHome.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title, this.uid}) : super(key: key);
@@ -73,6 +74,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   )
                   );
                 }
+            ),
+            new ListTile(
+              title: new Text('Logout'),
+              onTap: () {
+                Navigator.of(context).pop();
+                FirebaseAuth.instance.signOut();
+                Navigator.pushReplacementNamed(context, '/login');
+              }
             )
           ],
         ),
