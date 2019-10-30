@@ -31,6 +31,22 @@ class _MyHomePageState extends State<MyHomePage> {
   final String uid;
   final bool emp;
   final String title;
+
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+  FirebaseUser user;
+
+  @override
+  void initState() {
+    super.initState();
+    initUser();
+  }
+
+  initUser() async {
+    user = await _auth.currentUser();
+    setState(() {});
+  }
+
+
   Widget _buildChild() {
     if (emp) {
       return new ListTile(
@@ -49,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+
       appBar: new AppBar(
           backgroundColor: Colors.orangeAccent,
           title: new Text('McGlynns Food2Go')
@@ -57,10 +74,11 @@ class _MyHomePageState extends State<MyHomePage> {
           child: new Text('I am the homepage')
       ),
       drawer: new Drawer(
+
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-                accountName: new Text('userName'),
+                accountName: new Text('username'),
                 accountEmail: new Text('user@gmail.com'),
                 currentAccountPicture: new CircleAvatar(
                   backgroundImage: new NetworkImage('https://i.pravatar.cc/300'),

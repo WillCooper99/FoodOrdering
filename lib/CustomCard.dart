@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:mcglynns_food2go/DBA.dart';
 
 class CustomCard extends StatelessWidget {
-  CustomCard({@required this.title, this.price});
+  CustomCard({@required this.title, this.price, this.uid});
 
+  final uid;
   final title;
   final price;
 
