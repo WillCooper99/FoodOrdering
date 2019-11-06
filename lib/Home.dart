@@ -28,10 +28,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
   User _currentUser;
   _MyHomePageState(var uid) {
         _currentUser = new User(uid);
   }
+
   Widget _buildChild() {
     if (_currentUser.getEmployee()) {
       return new ListTile(
@@ -50,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+
       appBar: new AppBar(
           backgroundColor: Colors.orangeAccent,
           title: new Text('McGlynns Food2Go')
@@ -58,10 +61,11 @@ class _MyHomePageState extends State<MyHomePage> {
           child: new Text('I am the homepage')
       ),
       drawer: new Drawer(
+
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-                accountName: new Text('userName'),
+                accountName: new Text('username'),
                 accountEmail: new Text('user@gmail.com'),
                 currentAccountPicture: new CircleAvatar(
                   backgroundImage: new NetworkImage('https://i.pravatar.cc/300'),
