@@ -87,10 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) => MyHomePage(
-                                          title: result["fname"] +
-                                              "'s Tasks",
-                                          uid: currentUser.user.uid,
-                                          emp: result['employee']
+                                          currentUser.user.uid,
                                         ))))
                                 .catchError((err) => print(err)))
                                 .catchError((err) => print(err));
