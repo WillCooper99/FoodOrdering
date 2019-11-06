@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mcglynns_food2go/SplashPage.dart';
 import 'LoginPage.dart';
-import 'Home.dart';
 import 'RegisterPage.dart';
 
 
@@ -27,7 +26,6 @@ class MyApp extends StatelessWidget {
         ),
         home: SplashPage(),
         routes: <String, WidgetBuilder>{
-          '/home': (BuildContext context) => MyHomePage(title: 'Home', ),
           '/login': (BuildContext context) => LoginPage(),
           '/register': (BuildContext context) => RegisterPage(),
         });

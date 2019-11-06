@@ -4,10 +4,12 @@ import 'package:mcglynns_food2go/Cart.dart';
 import 'package:mcglynns_food2go/menu/menuHome.dart';
 import 'package:mcglynns_food2go/EmployeeHome.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:mcglynns_food2go/User.dart';
 
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.emp, this.uid, this.title}) : super(key: key);
+  String uid;
+  MyHomePage(this.uid);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -18,37 +20,22 @@ class MyHomePage extends StatefulWidget {
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
 
-  final String uid;
-  final bool emp;
-  final String title;
+
+
 
   @override
-  _MyHomePageState createState() => _MyHomePageState(emp:this.emp, uid:this.uid, title:this.title);
+  _MyHomePageState createState() => _MyHomePageState(uid);
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  _MyHomePageState({this.emp, this.uid, this.title});
-  final String uid;
-  final bool emp;
-  final String title;
 
-  final FirebaseAuth _auth = FirebaseAuth.instance;
-  FirebaseUser user;
-
-  @override
-  void initState() {
-    super.initState();
-    initUser();
+  User _currentUser;
+  _MyHomePageState(var uid) {
+        _currentUser = new User(uid);
   }
-
-  initUser() async {
-    user = await _auth.currentUser();
-    setState(() {});
-  }
-
 
   Widget _buildChild() {
-    if (emp) {
+    if (_currentUser.getEmployee()) {
       return new ListTile(
           title: new Text('Employee Mode'),
           onTap: () {
