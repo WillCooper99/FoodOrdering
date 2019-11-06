@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mcglynns_food2go/SplashPage.dart';
 import 'LoginPage.dart';
-import 'Home.dart';
 import 'RegisterPage.dart';
 
 

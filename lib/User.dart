@@ -6,9 +6,10 @@ class User
   String fname;
   String surname;
   bool employee;
+  var doc;
   User(String this.uid){
-  var document = Firestore.instance.collection('users').document(uid);
-  document.get().then((DocumentSnapshot ds) {
+  doc= Firestore.instance.collection('users').document(uid);
+  doc.get().then((DocumentSnapshot ds) {
     this.email = ds['email'];
     this.employee = ds['employee'];
     this.fname = ds['fname'];
@@ -25,6 +26,22 @@ class User
   }
   bool getEmployee(){
     return this.employee;
+  }
+  String getEmail() {
+    return this.email;
+  }
+  void setFName(String name){
+    doc.setData({"fname" : name});
+  }
+  void setSurName(String name){
+
+    doc.setData({"surname" : name});
+  }
+  void setEmployee(bool emp){
+     doc.setData({"employee" : emp});
+  }
+  void setEmail(String newEmail){
+    doc.setData({"email" : newEmail});
   }
 
 }
