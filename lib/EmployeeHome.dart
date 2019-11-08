@@ -29,7 +29,7 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-          backgroundColor: Colors.orangeAccent,
+          backgroundColor: Colors.red,
           title: new Text('McGlynns Food2Go')
       ),
       body: Center(
