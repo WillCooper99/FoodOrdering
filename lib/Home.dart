@@ -65,8 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-                accountName: new Text(_currentUser.fname),
-                accountEmail: new Text(_currentUser.email),
+                accountName: new Text('userName'),
+                accountEmail: new Text('userEmail'),
             ),
             new ListTile(
                 title: new Text('Account'),

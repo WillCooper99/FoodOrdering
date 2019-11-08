@@ -57,18 +57,3 @@ class CustomCartCard extends StatelessWidget {
      );
   }
 }
-
-/*
-
-                    CustomCartCard custCartCard;
-
-                for(int i = 0; i < document['names'].length ; i++){
-                  custCartCard = new CustomCartCard(
-                    title: document['names'].elementAt(i),
-                    price: document['prices'].elementAt(i).toString(),
-                  );
-
-                  return custCartCard;
-                }
-              }).toList(),
- */
