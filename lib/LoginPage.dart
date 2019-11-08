@@ -46,6 +46,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
         appBar: AppBar(
           title: Text("Login"),
+          backgroundColor: Colors.red,
         ),
         body: Container(
             padding: const EdgeInsets.all(20.0),

@@ -12,7 +12,7 @@ class _CartState extends State<Cart> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Cart'),
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.red,
       ),
       body: Center(
         child: DBACart(collection: 'Cart'),

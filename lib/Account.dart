@@ -11,7 +11,7 @@ class _AccountState extends State<Account> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text('Account'),
-        backgroundColor: Colors.orangeAccent,
+        backgroundColor: Colors.red,
       ),
       body: Center(child: new Text('I am the account page')),
     );

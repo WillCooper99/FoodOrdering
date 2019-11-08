@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return new Scaffold(
 
       appBar: new AppBar(
-          backgroundColor: Colors.orangeAccent,
+          backgroundColor: Colors.red,
           title: new Text('McGlynns Food2Go')
       ),
       body: Center(
@@ -65,11 +65,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-                accountName: new Text('username'),
-                accountEmail: new Text('user@gmail.com'),
-                currentAccountPicture: new CircleAvatar(
-                  backgroundImage: new NetworkImage('https://i.pravatar.cc/300'),
-                )
+                accountName: new Text(_currentUser.fname),
+                accountEmail: new Text(_currentUser.email),
             ),
             new ListTile(
                 title: new Text('Account'),
