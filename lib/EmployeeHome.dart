@@ -3,6 +3,7 @@ import 'package:mcglynns_food2go/Account.dart';
 import 'package:mcglynns_food2go/Cart.dart';
 import 'package:mcglynns_food2go/menu/menuHome.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:mcglynns_food2go/User.dart';
 
 class EmployeeHomePage extends StatefulWidget {
   EmployeeHomePage({Key key, this.title, this.uid}) : super(key: key);
@@ -29,12 +30,8 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
       drawer: new Drawer(
         child: ListView(
           children: <Widget>[
-            new UserAccountsDrawerHeader(
-                accountName: new Text('employeename'),
-                accountEmail: new Text('user@gmail.com'),
-            ),
             new ListTile(
-                title: new Text('Account'),
+                title: new Text('Edit User Accounts'),
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
@@ -44,7 +41,7 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
                 }
             ),
             new ListTile(
-                title: new Text('Menu'),
+                title: new Text('Edit Menu'),
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
@@ -54,7 +51,7 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
                 }
             ),
             new ListTile(
-                title: new Text('Cart'),
+                title: new Text('Edit Cart'),
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
