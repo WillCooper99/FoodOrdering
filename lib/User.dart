@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 class User
 {
   String uid;
@@ -30,6 +31,9 @@ class User
   String getEmail() {
     return this.email;
   }
+  String getFullName() {
+    return this.fname + " " + this.surname;
+  }
   void setFName(String name){
     doc.setData({"fname" : name});
   }
@@ -42,6 +46,11 @@ class User
   }
   void setEmail(String newEmail){
     doc.setData({"email" : newEmail});
+  }
+
+  getUser() async {
+    FirebaseUser user = await FirebaseAuth.instance.currentUser();
+    return user;
   }
 
 }
