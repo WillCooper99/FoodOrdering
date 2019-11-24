@@ -17,7 +17,7 @@ class _CartState extends State<Cart> {
         backgroundColor: Colors.red,
       ),
       body: Center(
-        child: DBACart(collection: 'Cart'),
+        child: DBACart(),
         )
       );
   }

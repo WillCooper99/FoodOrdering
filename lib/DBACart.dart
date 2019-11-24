@@ -1,45 +1,34 @@
-import 'dart:ffi';
+
 
 import 'package:flutter/material.dart';
-import 'package:mcglynns_food2go/CustomCard.dart';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mcglynns_food2go/Home.dart';
 import 'dart:async';
 import 'package:mcglynns_food2go/User.dart';
 
 class DBACart extends StatelessWidget {
+  User myUser = getUser();
 
 
-
-  DBACart({@required this.collection});
-  final collection;
-
-  final databaseReference = Firestore.instance;
 
   @override
   Widget build(BuildContext context) {
-    return StreamBuilder<QuerySnapshot>(
-      stream: Firestore.instance.collection(collection).snapshots(),
-      builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
-        print(Firestore.instance.collection(collection).snapshots());
+    return StreamBuilder<DocumentSnapshot>(
+      stream: Firestore.instance.collection("Cart").document(myUser.getUID()).snapshots(),
+      builder: (BuildContext context, AsyncSnapshot<DocumentSnapshot> snapshot) {
+        print(Firestore.instance.collection("Cart").snapshots());
         if (snapshot.hasError) return new Text('Error: ${snapshot.error}');
         switch (snapshot.connectionState) {
           case ConnectionState.waiting:
             return new Text('Loading...');
           default:
-            return new ListView(
-              children:
-                  snapshot.data.documents.map((DocumentSnapshot document) {
-                    return new CustomCartCard(
-                      title: document['names'],
-                      price: document['prices'],
-                    );
-              }).toList(),
+            return new CustomCartCard(
+              title: snapshot.data['names'],
+              price: snapshot.data['prices'],
             );
-        }
-      },
-    );
-  }
+        }});
+    }
 }
 
 class CustomCartCard extends StatelessWidget {
@@ -47,12 +36,10 @@ class CustomCartCard extends StatelessWidget {
 
   final title;
   final price;
-
-  final dba = new DBACart(collection: null);
   var cartTotal = 0.0;
 
 
-  User myUser = getUser();
+
 
   @override
   Widget build(BuildContext context) {
