@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:mcglynns_food2go/DBA.dart';
+import 'package:mcglynns_food2go/EmployeeDBA.dart';
 import 'package:mcglynns_food2go/User.dart';
 import 'package:mcglynns_food2go/Home.dart';
 
-class CustomCard extends StatelessWidget {
-  CustomCard({@required this.title, this.price, this.uid});
+class EmployeeMenuCard extends StatelessWidget {
+  EmployeeMenuCard({@required this.title, this.price, this.uid});
 
   final uid;
   final title;
   final price;
 
-  final dba = new DBA(collection: null);
+  final dba = new EmployeeDBA(collection: null);
 
   User myUser = getUser();
 
@@ -21,18 +21,25 @@ class CustomCard extends StatelessWidget {
             padding: const EdgeInsets.only(top: 5.0),
             child: Column(
               children: <Widget>[
-                Text(title + "\n Price: " + price.toString()),
+                Text(title),
                 ButtonTheme.bar(
                     child: ButtonBar(children: <Widget>[
                   FlatButton(
-                    child: Text('Add to Cart'),
-
+                    child: Text(title),
                     color: Colors.red,
                     textColor: Colors.white,
                     onPressed: () {
-                      dba.createRecord(myUser.uid, [title], [price]);
+
                     },
                   ),
+                      FlatButton(
+                        child: Text('Remove item'),
+                        color: Colors.red,
+                        textColor: Colors.white,
+                        onPressed: () {
+
+                        },
+                      ),
                 ]))
               ],
             )));

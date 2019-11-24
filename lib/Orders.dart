@@ -3,21 +3,21 @@ import 'package:mcglynns_food2go/DBA.dart';
 import 'package:mcglynns_food2go/DBACart.dart';
 
 
-class Cart extends StatefulWidget {
+class Orders extends StatefulWidget {
   @override
-  _CartState createState() => _CartState();
+  _OrdersState createState() => _OrdersState();
 }
 
-class _CartState extends State<Cart> {
+class _OrdersState extends State<Orders> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Cart'),
-        backgroundColor: Colors.red,
+        title: new Text('Orders'),
+        backgroundColor: Colors.orange,
       ),
       body: Center(
-        child: DBACart(collection: 'Cart'),
+       child: new Text('I am the recieve orders page'),
         )
       );
   }
