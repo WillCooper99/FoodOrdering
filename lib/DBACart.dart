@@ -9,7 +9,7 @@ import 'package:mcglynns_food2go/User.dart';
 
 class DBACart extends StatelessWidget {
 
-
+  User myUser = getUser();
 
   DBACart({@required this.collection});
   final collection;
@@ -19,7 +19,7 @@ class DBACart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
-      stream: Firestore.instance.collection(collection).snapshots(),
+      stream: databaseReference.collection(collection).snapshots(),
       builder: (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
         print(Firestore.instance.collection(collection).snapshots());
         if (snapshot.hasError) return new Text('Error: ${snapshot.error}');
@@ -41,6 +41,11 @@ class DBACart extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
 
 class CustomCartCard extends StatelessWidget {
   CustomCartCard({@required this.title, this.price});
