@@ -6,10 +6,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mcglynns_food2go/User.dart';
 
 class EmployeeHomePage extends StatefulWidget {
-  EmployeeHomePage({Key key, this.title, this.uid}) : super(key: key);
 
-  final String title;
-  final String uid;
+    EmployeeHomePage();
+
+
 
   @override
   _EmployeeHomePageState createState() => _EmployeeHomePageState();
