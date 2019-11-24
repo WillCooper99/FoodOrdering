@@ -122,6 +122,10 @@ class _RegisterPageState extends State<RegisterPage> {
                                 "employee": false,
                                 "email": emailInputController.text,
                               })
+                              .then((result) => Firestore.instance.collection("Cart")
+                              .document(currentUser.user.uid)
+                                  .setData({"names": null, "prices": null})
+                              )
                                   .then((result) => {
                                 Navigator.pushAndRemoveUntil(
                                     context,
