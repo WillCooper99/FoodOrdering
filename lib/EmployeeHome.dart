@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mcglynns_food2go/Account.dart';
-import 'package:mcglynns_food2go/Cart.dart';
-import 'package:mcglynns_food2go/menu/menuHome.dart';
+import 'package:mcglynns_food2go/EmployeeAccount.dart';
+import 'package:mcglynns_food2go/Orders.dart';
+import 'package:mcglynns_food2go/employeemenu/EmployeeMenuHome.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mcglynns_food2go/User.dart';
 
@@ -35,7 +35,7 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
-                      builder: (BuildContext context) => new Account()
+                      builder: (BuildContext context) => new EmployeeAccount()
                   )
                   );
                 }
@@ -45,17 +45,17 @@ class _EmployeeHomePageState extends State<EmployeeHomePage> {
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
-                      builder: (BuildContext context) => new MenuHome()
+                      builder: (BuildContext context) => new EmployeeMenuHome()
                   )
                   );
                 }
             ),
             new ListTile(
-                title: new Text('Edit Cart'),
+                title: new Text('View Orders'),
                 onTap: () {
                   Navigator.of(context).pop();
                   Navigator.push(context, new MaterialPageRoute(
-                      builder: (BuildContext context) => new Cart()
+                      builder: (BuildContext context) => new Orders()
                   )
                   );
                 }

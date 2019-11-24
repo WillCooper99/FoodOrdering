@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:mcglynns_food2go/User.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:mcglynns_food2go/Home.dart';
@@ -8,7 +9,6 @@ class Account extends StatefulWidget {
   @override
   _AccountState createState() => _AccountState();
 }
-
 
 
 class _AccountState extends State<Account> {
