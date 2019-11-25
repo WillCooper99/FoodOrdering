@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "349793587419",
+    "firebase_url": "https://mcglynns-food2go.firebaseio.com",
+    "project_id": "mcglynns-food2go",
+    "storage_bucket": "mcglynns-food2go.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349793587419:android:6ed0bad45c3b6aa18b7cfe",
+        "android_client_info": {
+          "package_name": "com.holeygoats.mcglynns_food2go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349793587419-aq7bd9rvh85ddo6jfej8tvh6bdsbq3km.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.holeygoats.mcglynns_food2go",
+            "certificate_hash": "5e69c7945ceedf64e0a8e27a2e317e273511f5e9"
+          }
+        },
+        {
+          "client_id": "349793587419-0kbbras9snr0m545iku1sd6juncsacvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMr0qeFpD-J3iDCE5o9Y9MnK31EjiBquw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349793587419-0kbbras9snr0m545iku1sd6juncsacvv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349793587419-ip2abd871on9i1i9sog5prgfhg7eeg1h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.holygoats.food2go"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
